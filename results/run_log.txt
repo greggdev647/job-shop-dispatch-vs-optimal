@@ -1,0 +1,29 @@
+instances per size: 15, CP-SAT time limit per objective: 5.0s, 1 worker
+
+ size   rule  makespan_gap_pct  tardiness_ratio
+  6x6   FIFO             19.57             5.88
+  6x6    SPT             15.22             3.27
+  6x6    EDD             21.96             2.95
+  6x6   MWKR             12.56             6.97
+  6x6     CR             19.75             4.25
+  6x6 RANDOM             18.86             5.02
+ 10x5   FIFO             11.71             2.14
+ 10x5    SPT             18.55             1.33
+ 10x5    EDD             30.15             1.49
+ 10x5   MWKR              8.45             2.39
+ 10x5     CR             21.96             1.67
+ 10x5 RANDOM             16.08             1.96
+10x10   FIFO             18.29            11.69
+10x10    SPT             22.30             6.98
+10x10    EDD             34.47             8.59
+10x10   MWKR             16.97            17.01
+10x10     CR             22.33             9.61
+10x10 RANDOM             23.56            12.37
+
+ size  instances  makespan_proven_optimal  tardiness_proven_optimal
+  6x6         15                       15                        15
+ 10x5         15                       15                         0
+10x10         15                       15                        14
+
+ft06 optimal makespan: 55.0
+ft06 rule makespans: {'FIFO': 65, 'SPT': 88, 'EDD': 83, 'MWKR': 61, 'CR': 87, 'RANDOM': 67}
