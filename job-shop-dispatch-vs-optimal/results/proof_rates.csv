@@ -1,4 +1,0 @@
-size,instances,makespan_proven_optimal,tardiness_proven_optimal
-6x6,15,15,15
-10x5,15,15,0
-10x10,15,15,14

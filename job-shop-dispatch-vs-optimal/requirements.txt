@@ -1,5 +1,0 @@
-ortools>=9.9
-numpy
-pandas
-matplotlib
-pytest
